@@ -1,32 +1,32 @@
 = MINT-mapping2png
 
-* http://github.com/#{github_username}/#{project_name}
+* http://github.com/sfeu/MINT-mapping2png
 
 == DESCRIPTION:
 
-FIX (describe your package)
+A command line tool that generates png images from MINT mapping xml files.
 
 == FEATURES/PROBLEMS:
 
-* FIX (list of features or problems)
+Currenly only can parse entire directories
 
 == SYNOPSIS:
 
-  FIX (code sample of usage)
+mint-mapping2png /home/user/directory/with/mapping/xmls /home/user/image/ouput/directory
 
 == REQUIREMENTS:
 
-* FIX (list of requirements)
+Requires installed ruby-xslt and ruby-graphviz
 
 == INSTALL:
 
-* FIX (sudo gem install, anything else)
+sudo gem install MINT-mapping2png
 
 == LICENSE:
 
 (The MIT License)
 
-Copyright (c) 2012 FIXME full name
+Copyright (c) 2012 Sebastian Feuerstack
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

@@ -1,7 +1,5 @@
 
 For more information on MINT-mapping2png, see http://MINT-mapping2png.rubyforge.org
 
-NOTE: Change this information in PostInstall.txt 
-You can also delete it if you don't want it.
 
 
