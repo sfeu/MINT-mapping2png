@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+#
+#  Created on 2012-8-22.
+#  Copyright (c) 2012. All rights reserved.
+
+require 'rubygems'
+require File.expand_path(File.dirname(__FILE__) + "/../lib/MINT-mapping2png")
+require "mint-map2png/cli"
+
+Mintmap2png::CLI.execute(STDOUT, ARGV)
